@@ -1,8 +1,8 @@
 # G-API-FAQs
-These are frequently asked questions on developing with the G-API for use with OpenVINO.
+These are frequently asked questions and answers on developing with the G-API.
 
 
-1. What is out_meta?
+1. What is `out_meta`?
 <details> 
 Q: What is up with the boilerplate code we have to write in the G-API op and how does it fit into the big picture? 
 <br><br>

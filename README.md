@@ -6,8 +6,11 @@ These are frequently asked questions on developing with the G-API for use with O
 <details> 
 Q: What is up with the boilerplate code we have to write in the G-API op and how does it fit into the big picture? 
 <br><br>
-A: You'll find helpful information in the G-API Kernel Doc https://docs.opencv.org/4.5.2/d0/d25/gapi_kernel_api.html. See **Extra information**.
+A: You'll find helpful information in the G-API Kernel API Doc https://docs.opencv.org/4.5.2/d0/d25/gapi_kernel_api.html. See **Extra information**.
 </details>
+
+[G-API Kernel API Doc](https://docs.opencv.org/4.5.2/d0/d25/gapi_kernel_api.html)
+
 
 b.	What happens if my neural network has more than one input? How do I configure the input layers so that I tell it which layer gets which input?
 We’re yet to document this behavior, but the samples we provided to MSFT back in 2020 illustrated those cases already.

@@ -4,7 +4,7 @@ These are frequently asked questions and answers on developing with the G-API.
 
 **Q: What is the `out_meta` boilerplate code we have to write in the G-API op and how does it fit into the big picture?** 
 <br><br>
-A: You'll find helpful information in the [G-API Kernel API Doc](https://docs.opencv.org/4.5.2/d0/d25/gapi_kernel_api.html). The **Extra information** section contains additional insights.
+A: You'll find helpful information in the [G-API Kernel API Doc](https://docs.opencv.org/4.5.2/d0/d25/gapi_kernel_api.html). The **_Extra information_** section contains additional insights.
 <br><br>
 
 **Q: What happens if my neural network has more than one input? How do I configure the input layers so that I tell it which layer gets which input?**
@@ -25,7 +25,7 @@ G-API manages internal buffers automatically so if a reallocation like this happ
 **Q: When and how do I compose a `gmat_desc`?**
 <br><br>
 A: See the [GMatDesc Struct Reference](https://docs.opencv.org/4.5.2/d0/d82/structcv_1_1GMatDesc.html).  
-Also see the **Extra Information** section of the [G-API Kernel API Doc](https://docs.opencv.org/4.5.2/d0/d25/gapi_kernel_api.html).
+Also see the **_Extra Information_** section of the [G-API Kernel API Doc](https://docs.opencv.org/4.5.2/d0/d25/gapi_kernel_api.html).
 <br>
 The API and code examples are still under development and we hope to add additional information in the future, as resources allow.
 <br><br>

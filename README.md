@@ -14,25 +14,26 @@ A: You'll find helpful information in the [G-API Kernel API Doc](https://docs.op
 Q: What happens if my neural network has more than one input? How do I configure the input layers so that I tell it which layer gets which input?
 <br><br>
 A: This behavior hasn't been documented yet, but samples provided to MSFT illustrate those cases.
-The doxygen documentation for those is here on review: https://github.com/opencv/opencv/pull/20112/files
+The doxygen documentation for those is under review here: https://github.com/opencv/opencv/pull/20112/files
 </details>
 
-3. Can I clone a cv::Mat?
+3. Can I clone a `cv::Mat`?
 <details>
-Q: Why can't I clone a cv::Mat into an output of a kernel instead of having to copyTo one from an input? I get a message about the kernel resizing a Mat or something, but the error message is not super helpful.
+Q: Why can't I clone a `cv::Mat` into an output of a kernel instead of having to copyTo one from an input? I get a message about the kernel resizing a `Mat` but the error message is not helpful.
 <br><br>
 A: That’s valid feedback, thank you. Generally we don’t have any programming guides for our backends’ extensions API – no rules for this are documented yet.
 In this case, code reallocated an output buffer provided by the framework – and the framework complained about it.
 G-API manages internal buffers automatically so if a reallocation like this happens, it means that either;
-  - A) the kernel was written incorrectly or 
+  - A) the kernel was written incorrectly, or 
   - B) the internal contract is broken.
 </details>
 
-4. How and when do I compose a gmat_desc?
+4. How and when do I compose a `gmat_desc`?
 <details>
-Q: How do I compose a gmat_desc based on some input information? Really, how do I compose a gmat_desc at all, and when do I need to?
+Q: How do I compose a `gmat_desc` and when do I need to?
 <br><br>
-A: https://docs.opencv.org/4.5.2/d0/d82/structcv_1_1GMatDesc.html
+A: See the [GMatDesc Struct Reference](https://docs.opencv.org/4.5.2/d0/d82/structcv_1_1GMatDesc.html).  
+Also see the **Extra Information section of the [G-API Kernel API Doc](https://docs.opencv.org/4.5.2/d0/d25/gapi_kernel_api.html). The **Extra information** section contains additional insights.
+<br>
 The API and code examples are still under development and we hope to add additional information in the future, as resources allow.
-The above mentioned “Kernel API/Extra information”.
 </details>

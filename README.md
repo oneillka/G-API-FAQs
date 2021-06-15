@@ -9,7 +9,7 @@ Q: What is up with the boilerplate code we have to write in the G-API op and how
 A: You'll find helpful information in the [G-API Kernel API Doc](https://docs.opencv.org/4.5.2/d0/d25/gapi_kernel_api.html). The **Extra information** section contains additional insights.
 </details>
 
-2. Neural networks with more than one input?
+2. How can I configure layers for neural networks with more than one input?
 <details>
 Q: What happens if my neural network has more than one input? How do I configure the input layers so that I tell it which layer gets which input?
 <br><br>
@@ -29,7 +29,7 @@ G-API manages internal buffers automatically so if a reallocation like this happ
 </details>
 
 4. How and when do I compose a gmat_desc?
-</details>
+<details>
 Q: How do I compose a gmat_desc based on some input information? Really, how do I compose a gmat_desc at all, and when do I need to?
 <br><br>
 A: https://docs.opencv.org/4.5.2/d0/d82/structcv_1_1GMatDesc.html

@@ -2,9 +2,7 @@
 These are frequently asked questions and answers on developing with the G-API.
 
 
-1. What is `out_meta`?
-
-Q: What is the boilerplate code we have to write in the G-API op and how does it fit into the big picture? 
+**Q: What is the `out_meta` boilerplate code we have to write in the G-API op and how does it fit into the big picture?** 
 <br><br>
 A: You'll find helpful information in the [G-API Kernel API Doc](https://docs.opencv.org/4.5.2/d0/d25/gapi_kernel_api.html). The **Extra information** section contains additional insights.
 

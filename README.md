@@ -18,8 +18,8 @@ The documentation for those is currently under review here: https://github.com/o
 A: That’s valid feedback, thank you. Generally we don’t have any programming guides for our backends’ extensions API – no rules for this are documented yet.
 In this case, code reallocated an output buffer provided by the framework – and the framework complained about it.
 G-API manages internal buffers automatically so if a reallocation like this happens, it means that either;
-   A) the kernel was written incorrectly, or 
-   B) the internal contract is broken.
+   - the kernel was written incorrectly, or 
+   - the internal contract is broken.
 <br><br>
 
 **Q: When and how do I compose a `gmat_desc`?**

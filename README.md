@@ -9,8 +9,8 @@ A: You'll find helpful information in the [G-API Kernel API Doc](https://docs.op
 
 **Q: What happens if my neural network has more than one input? How do I configure the input layers so that I tell it which layer gets which input?**
 <br><br>
-A: This behavior hasn't been documented yet, but samples provided to MSFT illustrate those cases.
-The doxygen documentation for those is under review here: https://github.com/opencv/opencv/pull/20112/files
+A: This behavior hasn't been documented yet, but there are samples to illustrate those cases.
+The documentation for those is currently under review here: https://github.com/opencv/opencv/pull/20112/files
 <br><br>
 
 **Q: Why can't I clone a `cv::Mat` into an output of a kernel instead of having to copy one from an input? I get a message about the kernel resizing a `Mat` but the error message is not helpful.**

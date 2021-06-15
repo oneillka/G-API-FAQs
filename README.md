@@ -13,7 +13,7 @@ A: This behavior hasn't been documented yet, but samples provided to MSFT illust
 The doxygen documentation for those is under review here: https://github.com/opencv/opencv/pull/20112/files
 <br><br>
 
-**Q: Why can't I clone a `cv::Mat` into an output of a kernel instead of having to copyTo one from an input? I get a message about the kernel resizing a `Mat` but the error message is not helpful.**
+**Q: Why can't I clone a `cv::Mat` into an output of a kernel instead of having to copy one from an input? I get a message about the kernel resizing a `Mat` but the error message is not helpful.**
 <br><br>
 A: That’s valid feedback, thank you. Generally we don’t have any programming guides for our backends’ extensions API – no rules for this are documented yet.
 In this case, code reallocated an output buffer provided by the framework – and the framework complained about it.
@@ -25,7 +25,7 @@ G-API manages internal buffers automatically so if a reallocation like this happ
 **Q: When and how do I compose a `gmat_desc`?**
 <br><br>
 A: See the [GMatDesc Struct Reference](https://docs.opencv.org/4.5.2/d0/d82/structcv_1_1GMatDesc.html).  
-Also see the **Extra Information section of the [G-API Kernel API Doc](https://docs.opencv.org/4.5.2/d0/d25/gapi_kernel_api.html). The **Extra information** section contains additional insights.
+Also see the **Extra Information** section of the [G-API Kernel API Doc](https://docs.opencv.org/4.5.2/d0/d25/gapi_kernel_api.html).
 <br>
 The API and code examples are still under development and we hope to add additional information in the future, as resources allow.
 <br><br>

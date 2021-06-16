@@ -2,7 +2,7 @@
 These are frequently asked questions and answers on developing with the G-API.
 <br><br>
 
-**Q: What is the `out_meta` boilerplate code we have to write in the G-API op and how does it fit into the big picture?** 
+**Q: What is `out_meta`? What is the boilerplate code we have to write in the G-API op and how does it fit into the big picture?** 
 <br><br>
 A: You'll find helpful information in the [G-API Kernel API Doc](https://docs.opencv.org/4.5.2/d0/d25/gapi_kernel_api.html). The **_Extra information_** section contains additional insights.
 <br><br>
@@ -22,7 +22,7 @@ G-API manages internal buffers automatically so if a reallocation like this happ
    - the internal contract is broken.
 <br><br>
 
-**Q: When and how do I compose a `gmat_desc`?**
+**Q: When do I need to compose a `gmat_desc`?  And how do I do that?**
 <br><br>
 A: See the [GMatDesc Struct Reference](https://docs.opencv.org/4.5.2/d0/d82/structcv_1_1GMatDesc.html).  
 Also see the **_Extra Information_** section of the [G-API Kernel API Doc](https://docs.opencv.org/4.5.2/d0/d25/gapi_kernel_api.html).

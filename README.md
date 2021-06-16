@@ -1,5 +1,5 @@
 # G-API-FAQs
-These are frequently asked questions and answers on developing with the G-API.
+Frequently asked questions and answers on developing with the G-API.
 <br><br>
 
 **Q: What is `out_meta`? What is the boilerplate code we have to write in the G-API op and how does it fit into the big picture?** 
